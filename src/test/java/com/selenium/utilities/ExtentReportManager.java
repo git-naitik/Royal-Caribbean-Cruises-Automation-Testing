@@ -17,7 +17,7 @@ import com.aventstack.extentreports.reporter.configuration.Theme;
  * File Name   : ExtentReportManager.java
  * Package     : com.selenium.alertUtilities
  * Created Date: 18th June, 2025
- * Author      : Lava Prasad G V
+ * Author      : Naitik Chatterjee
  * 
  * Description :
  * This class implements the TestNG `ITestListener` interface to generate 
@@ -71,7 +71,7 @@ public class ExtentReportManager {
 		
 		extent.setSystemInfo("Computer Name", "localhost");
 		extent.setSystemInfo("Environment", "QEA");
-		extent.setSystemInfo("Tester Name", "Lava Prasad");
+		extent.setSystemInfo("Tester Name", "Naitik Chatterjee");
 		extent.setSystemInfo("OS", "Windows10");
 		
 	}
